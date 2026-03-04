@@ -22,34 +22,29 @@
 ⌨️ Interaktiv Menu	Foydalanuvchi uchun qulay interfeys <br>
 
 <h2> ⚙️ O'rnatish </h2>
-```bash
-# 1. Repositoryni yuklab olish
-git clone https://github.com/Jonyprogrammer/JDDoS.git
+#1. Repositoryni yuklab olish <br>
+git clone https://github.com/Jonyprogrammer/JDDoS.git <br>
 
-# 2. Toolga kirish
-cd JDDoS
+#2. Toolga kirish <br>
+cd web-stress-cli <br>
 
-# 3. Venv yaratish
-python3 -m venv venv
+#3. Venv yaratish <br>
+python3 -m venv venv <br>
 
-# 4. Venv ni aktiv qilish
-# Linux/Mac:
-source venv/bin/activate
-# Windows:
-venv\Scripts\activate
+#4. Venv ni aktiv qilish <br>
+source venv/bin/activate <br>
 
-# 5. Kutubxonalarni yuklab olish
-pip install requests colorama
+#5. Kutubxonalarni yuklab olish <br>
+pip install -r requirements.txt <br>
 
-# 6. Ishga tushirish
-python jddos.py
+#6. Ishga tushirish <br>
+python ddos.py <br>
 
 <h2> 🚀 Ishga Tushirish </h2>
-``` # Oddiy ishga tushirish
-python jddos.py
-
-# Yoki to'g'ridan-to'g'ri parametrlar bilan
-python jddos.py --target example.com --port 80 --rate 100 --type http ```
+# Oddiy ishga tushirish <br>
+python jddos.py <br>
+# Yoki to'g'ridan-to'g'ri parametrlar bilan <br>
+python jddos.py --target example.com --port 80 --rate 100 --type http <br>
 
 <h2> 🎯 Hujum Turlari </h2>
 🏹 Tur	<br>
@@ -71,14 +66,20 @@ Mozilla/5.0 (Windows NT 10.0; Win64; x64) <br>
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) <br>
 Mozilla/5.0 (X11; Linux x86_64) <br>
 
+<br>
+
 🔌 TCP SYN Flood (L4) <br>
 [SYN] ──> 🌐 Server <br>
 [SYN-ACK] <── Server <br>
 [ACK] ──> Ulanish o'rnatildi <br>
 
+<br>
+
 📦 UDP Flood (L3)<br>
 📦────📦────📦────📦────📦 <br>
 1400 byte random packet flood <br>
+
+<br>
 
 <h2> 📊 Real-time Statistika </h2>
 🎯 TARGET: example.com:80 | ⚡ RPS: 245 | ✅ OK: 12453 | ❌ ERR: 234 | 📊 98.1% | ⏱️ 45s <br>
@@ -91,21 +92,21 @@ Belgisi	Ma'nosi <br>
 ⏱️ Ishlagan vaqt <br>
 📈 Yakuniy Hisobot <br>
 
-==================================================
-📊 FINAL REPORT
-==================================================
+================================================== <br>
+📊 FINAL REPORT <br>
+================================================== <br>
 🎯 Target: example.com:80 <br>
 ⏱️  Uptime: 120.5 seconds <br>
 ⚡ Average RPS: 1,245 <br>
 📈 Total Requests: 150,000 <br>
 ✅ Successful: 149,000 (99.3%) <br>
 ❌ Failed: 1,000 <br>
-==================================================
+================================================== <br>
 
 <h2> ⚠️ Ogohlantirish </h2>
 🚫 BU TOOL FAQAT TA'LIMIY MAQSADLARDA YARATILGAN! <br>
 
-## ⚖️ **Qonuniy va Noqonuniy Foydalanish**
+## ⚖️ **Qonuniy va Noqonuniy Foydalanish** 
 
 | ⚡ QONUNIY | ❌ NOQONUNIY |
 |:---|:---|
@@ -114,7 +115,7 @@ Belgisi	Ma'nosi <br>
 | ✅ Akademik tadqiqot | ❌ Zarar yetkazish |
 | ✅ Xavfsizlik sohasida o'rganish | ❌ Noqonuniy faoliyat |
 
-⚖️ Qonuniy Oqibatlari:
+⚖️ Qonuniy Oqibatlari: <br>
 🚨 Ruxsatsiz foydalanish jinoiy javobgarlikka tortiladi <br>
 🌍 Ko'p mamlakatlarda 3-10 yil gacha qamoq jazosi <br>
 💰 $500,000 gacha jarima <br>
