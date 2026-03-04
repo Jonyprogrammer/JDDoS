@@ -25,6 +25,8 @@
 #1. Repositoryni yuklab olish <br>
 git clone https://github.com/Jonyprogrammer/JDDoS.git <br>
 
+<br>
+
 #2. Toolga kirish <br>
 cd web-stress-cli <br>
 
@@ -43,6 +45,9 @@ python ddos.py <br>
 <h2> 🚀 Ishga Tushirish </h2>
 # Oddiy ishga tushirish <br>
 python jddos.py <br>
+
+<br>
+
 # Yoki to'g'ridan-to'g'ri parametrlar bilan <br>
 python jddos.py --target example.com --port 80 --rate 100 --type http <br>
 
@@ -51,6 +56,8 @@ python jddos.py --target example.com --port 80 --rate 100 --type http <br>
 🔧 Texnika	<br>
 📈 Samaradorlik	<br>
 🎭 Daraja <br>
+
+<br>
 
 | 🏹 **Hujum turi** | 🎯 **Qatlam** | ⚡ **Tezlik** | 📊 **Samaradorlik** | 🔧 **Qo'llash** |
 |:---:|:---:|:---:|:---:|:---|
@@ -83,6 +90,9 @@ Mozilla/5.0 (X11; Linux x86_64) <br>
 
 <h2> 📊 Real-time Statistika </h2>
 🎯 TARGET: example.com:80 | ⚡ RPS: 245 | ✅ OK: 12453 | ❌ ERR: 234 | 📊 98.1% | ⏱️ 45s <br>
+
+<br>
+
 Belgisi	Ma'nosi <br>
 🎯 Nishon manzili <br>
 ⚡ Sekundiga so'rovlar (RPS) <br>
