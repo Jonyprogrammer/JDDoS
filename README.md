@@ -22,23 +22,27 @@
 ⌨️ Interaktiv Menu	Foydalanuvchi uchun qulay interfeys <br>
 
 <h2> ⚙️ O'rnatish </h2>
-``` #1. Repositoryni yuklab olish
+```bash
+# 1. Repositoryni yuklab olish
 git clone https://github.com/Jonyprogrammer/JDDoS.git
 
-#2. Toolga kirish
-cd web-stress-cli
+# 2. Toolga kirish
+cd JDDoS
 
-#3. Venv yaratish
+# 3. Venv yaratish
 python3 -m venv venv
 
-#4. Venv ni aktiv qilish
+# 4. Venv ni aktiv qilish
+# Linux/Mac:
 source venv/bin/activate
+# Windows:
+venv\Scripts\activate
 
-#5. Kutubxonalarni yuklab olish
-pip install -r requirements.txt
+# 5. Kutubxonalarni yuklab olish
+pip install requests colorama
 
-#6. Ishga tushirish
-python ddos.py ```
+# 6. Ishga tushirish
+python jddos.py
 
 <h2> 🚀 Ishga Tushirish </h2>
 ``` # Oddiy ishga tushirish
