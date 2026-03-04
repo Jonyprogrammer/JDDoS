@@ -28,7 +28,7 @@ git clone https://github.com/Jonyprogrammer/JDDoS.git <br>
 <br>
 
 #2. Toolga kirish <br>
-cd web-stress-cli <br>
+cd DDoS <br>
 
 #3. Venv yaratish <br>
 python3 -m venv venv <br>
@@ -44,7 +44,7 @@ python ddos.py <br>
 
 <h2> 🚀 Ishga Tushirish </h2>
 # Oddiy ishga tushirish <br>
-python jddos.py <br>
+python ddos.py <br>
 
 <h2> 🎯 Hujum Turlari </h2>
 🏹 Tur	<br>
