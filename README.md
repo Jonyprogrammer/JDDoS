@@ -46,11 +46,6 @@ python ddos.py <br>
 # Oddiy ishga tushirish <br>
 python jddos.py <br>
 
-<br>
-
-# Yoki to'g'ridan-to'g'ri parametrlar bilan <br>
-python jddos.py --target example.com --port 80 --rate 100 --type http <br>
-
 <h2> 🎯 Hujum Turlari </h2>
 🏹 Tur	<br>
 🔧 Texnika	<br>
